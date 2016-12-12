@@ -1,6 +1,6 @@
 {
   "name": "jsrr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSON Schema 内の $ref を参照先のスキーマに置換して出力します",
   "main": "index.js",
   "scripts": {
