@@ -1,0 +1,29 @@
+{
+  "name": "jsrr",
+  "version": "1.0.0",
+  "description": "JSON Schema 内の $ref を参照先のスキーマに置換して出力します",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikarock/jsrr.git"
+  },
+  "keywords": [
+    "json-schema"
+  ],
+  "author": "hikarock <i@hika69.com> (https://hika69.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hikarock/jsrr/issues"
+  },
+  "homepage": "https://github.com/hikarock/jsrr#readme",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.2.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema",
+  "title": "foo",
+  "description": "foo",
+  "stability": "prototype",
+  "strictProperties": true,
+  "type": "object",
+  "properties": {
+    "abc": {
+      "description": "abc",
+      "type": "string",
+      "example": "abc"
+    }
+  },
+  "required": [
+    "abc"
+  ],
+  "id": "schemata/foo"
+}

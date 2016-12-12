@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema",
+  "title": "buzz",
+  "description": "buzz",
+  "stability": "prototype",
+  "strictProperties": true,
+  "type": "object",
+  "properties": {
+    "xyz": {
+      "description": "xyz",
+      "type": "string",
+      "example": "xyz"
+    }
+  },
+  "required": [
+    "xyz"
+  ],
+  "id": "schemata/buzz"
+}

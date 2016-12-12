@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema",
+  "title": "hoge",
+  "description": "hoge",
+  "stability": "prototype",
+  "strictProperties": true,
+  "type": "object",
+  "properties": {
+    "foo": {
+      "$ref": "/schemata/foo"
+    },
+    "bar": {
+      "description": "bar",
+      "readOnly": true,
+      "type": "array",
+      "items": {
+        "properties": {
+          "buzz": {
+            "$ref": "/schemata/buzz"
+          }
+        },
+        "required": [
+          "buzz"
+        ]
+      }
+    }
+  },
+  "required": [
+    "foo",
+    "bar"
+  ],
+  "id": "schemata/hoge"
+}
